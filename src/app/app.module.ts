@@ -11,6 +11,8 @@ import { HomeComponent } from './home/home.component';
 import { AbautComponent } from './abaut/abaut.component';
 import { RestaurantesComponent } from './restaurantes/restaurantes.component';
 import { RestauranteComponent } from './restaurantes/restaurante/restaurante.component';
+import { RestaurantsService } from './restaurantes/restaurante/restaurants.service';
+
 
 
 
@@ -32,7 +34,7 @@ import { RestauranteComponent } from './restaurantes/restaurante/restaurante.com
   schemas: [
     CUSTOM_ELEMENTS_SCHEMA,
   ],
-  providers: [],
+  providers: [RestaurantsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
