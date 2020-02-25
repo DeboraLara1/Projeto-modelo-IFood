@@ -11,10 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { AbautComponent } from './abaut/abaut.component';
 import { RestaurantesComponent } from './restaurantes/restaurantes.component';
 import { RestauranteComponent } from './restaurantes/restaurante/restaurante.component';
-import { RestaurantsService } from './restaurantes/restaurante/restaurants.service';
-
-
-
+import { RestaurantesService } from './restaurantes/restaurante/restaurantes.service';
 
 
 @NgModule({
@@ -25,6 +22,7 @@ import { RestaurantsService } from './restaurantes/restaurante/restaurants.servi
     AbautComponent,
     RestaurantesComponent,
     RestauranteComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -34,7 +32,7 @@ import { RestaurantsService } from './restaurantes/restaurante/restaurants.servi
   schemas: [
     CUSTOM_ELEMENTS_SCHEMA,
   ],
-  providers: [RestaurantsService],
+  providers: [RestaurantesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
