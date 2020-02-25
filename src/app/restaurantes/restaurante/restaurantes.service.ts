@@ -8,7 +8,6 @@ import { MEAT_API } from 'app/app.api';
 import { ErrorHandler } from './../../app.error-handler';
 
 
-
 @Injectable()
 export class RestaurantesService {
 
