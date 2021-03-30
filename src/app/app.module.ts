@@ -12,6 +12,11 @@ import { AbautComponent } from './abaut/abaut.component';
 import { RestaurantesComponent } from './restaurantes/restaurantes.component';
 import { RestauranteComponent } from './restaurantes/restaurante/restaurante.component';
 import { RestaurantesService } from './restaurantes/restaurante/restaurantes.service';
+import { DetailhesRestaurantesComponent } from './detailhes-restaurantes/detailhes-restaurantes.component';
+import { MenuComponent } from './detailhes-restaurantes/menu/menu.component';
+import { MenuItemComponent } from './detailhes-restaurantes/menu-item/menu-item.component';
+import { ReviewsComponent } from './detailhes-restaurantes/reviews/reviews.component';
+import { ShoppingCartComponent } from './detailhes-restaurantes/shopping-cart/shopping-cart.component';
 
 
 @NgModule({
@@ -22,6 +27,11 @@ import { RestaurantesService } from './restaurantes/restaurante/restaurantes.ser
     AbautComponent,
     RestaurantesComponent,
     RestauranteComponent,
+    DetailhesRestaurantesComponent,
+    MenuComponent,
+    MenuItemComponent,
+    ReviewsComponent,
+    ShoppingCartComponent,
 
   ],
   imports: [
