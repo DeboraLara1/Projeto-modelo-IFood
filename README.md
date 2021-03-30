@@ -1,4 +1,4 @@
-# Meat - Angular App Starter
+# Projeto-modelo-IFood
 
 ## 1. Passos para começar
 
